@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusConnect - Single Page Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #01295F !important;">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="Olive_Green_and_White_Simple_Education_Logo__3___1_-removebg-preview.png" alt="CampusConnect Logo" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-target="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="feedback">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="page-section">
+        <section class="hero-section">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="hero-slide bg-gradient-primary">
+                            <div class="container">
+                                <div class="row align-items-center min-vh-100">
+                                    <div class="col-lg-6">
+                                        <h1 class="display-4 fw-bold text-white mb-4 animate-fade-in">Welcome to CampusConnect</h1>
+                                        <p class="lead text-white mb-4 animate-slide-up">Your gateway to campus events, activities, and community engagement</p>
+                                        <a href="#" class="btn btn-light btn-lg animate-bounce" data-target="events">Explore Events</a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="hero-image animate-zoom-in">
+                                            <img src="Img (1).jpeg" alt="Campus Image 1" style="width: 100%; height: 300px; object-fit: cover; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="hero-slide bg-gradient-success">
+                            <div class="container">
+                                <div class="row align-items-center min-vh-100">
+                                    <div class="col-lg-6">
+                                        <h1 class="display-4 fw-bold text-white mb-4">Join Our Community</h1>
+                                        <p class="lead text-white mb-4">Connect with fellow students, faculty, and alumni through exciting events</p>
+                                        <a href="#" class="btn btn-light btn-lg" data-target="about">Learn More</a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="hero-image">
+                                            <img src="Img (2).jpeg" alt="Campus Image 2" style="width: 100%; height: 300px; object-fit: cover; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="hero-slide bg-gradient-primary">
+                            <div class="container">
+                                <div class="row align-items-center min-vh-100">
+                                    <div class="col-lg-6">
+                                        <h1 class="display-4 fw-bold text-white mb-4">Stay Updated</h1>
+                                        <p class="lead text-white mb-4">Never miss important campus events and announcements</p>
+                                        <a href="#" class="btn btn-light btn-lg" data-target="gallery">View Gallery</a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="hero-image">
+                                            <img src="Img (3).jpeg" alt="Campus Image 3" style="width: 100%; height: 300px; object-fit: cover; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="display-5 fw-bold text-primary">Upcoming Events</h2>
+                        <p class="lead">Don't miss out on these exciting campus events</p>
+                    </div>
+                </div>
+                <div class="row" id="upcomingEvents">
+                </div>
+                <div class="text-center mt-4">
+                    <a href="#" data-target="events" class="btn btn-primary btn-lg">View All Events</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" style="background-color: #F8F9FA;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="display-5 fw-bold">Why Choose CampusConnect?</h2>
+                        <p class="lead">Discover the features that make us the best choice for campus events</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="feature-card text-center p-4 h-100">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-calendar-alt fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Event Management</h4>
+                            <p class="text-muted">Comprehensive event listing with filtering, sorting, and detailed information for all campus activities.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="feature-card text-center p-4 h-100">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-images fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Photo Gallery</h4>
+                            <p class="text-muted">Beautiful photo gallery with multiple view modes, filtering options, and bookmarking functionality.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="feature-card text-center p-4 h-100">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-bookmark fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Bookmarking</h4>
+                            <p class="text-muted">Save your favorite events and images with our local storage-based bookmarking system.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="about" class="page-section d-none">
+        <section class="page-header text-white py-5 mt-5" style="background: linear-gradient(135deg, #01295F 0%, #437F97 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4 fw-bold">About CampusConnect</h1>
+                        <p class="lead">Learn more about our college and annual events</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <h2 class="display-6 fw-bold mb-4">Our College</h2>
+                        <p class="lead">CampusConnect is a premier educational institution dedicated to fostering academic excellence, innovation, and community engagement.</p>
+                        <p>We believe in providing a holistic learning environment that goes beyond traditional classroom education. Our campus is a vibrant hub of activities, events, and opportunities that help students grow both academically and personally.</p>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <div class="text-center">
+                                    <h3 class="fw-bold text-primary">5000+</h3>
+                                    <p class="text-muted">Students</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="text-center">
+                                    <h3 class="fw-bold text-primary">200+</h3>
+                                    <p class="text-muted">Events Annually</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card-body p-4">
+                                <h4 class="fw-bold mb-3">Our Mission</h4>
+                                <p class="text-muted">To create an inclusive and dynamic campus environment where students can explore their passions, develop leadership skills, and build lasting connections through diverse events and activities.</p>
+                                <h4 class="fw-bold mb-3 mt-4">Our Vision</h4>
+                                <p class="text-muted">To be the leading platform for campus event management, fostering a culture of engagement, creativity, and community spirit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" style="background-color: #F8F9FA;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="display-6 fw-bold">Annual Events Timeline</h2>
+                        <p class="lead">Explore our diverse range of annual events organized by category</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-header text-white" style="background: linear-gradient(135deg, #01295F 0%, #437F97 100%);">
+                                <h4 class="card-title mb-0"><i class="fas fa-laptop-code me-2"></i>Technical Events</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="timeline">
+                                    <div class="timeline-item mb-3">
+                                        <h6 class="fw-bold">Hackathon 2024</h6>
+                                        <p class="text-muted small">48-hour coding competition with prizes worth ₹1,00,000</p>
+                                    </div>
+                                    <div class="timeline-item mb-3">
+                                        <h6 class="fw-bold">TechFest</h6>
+                                        <p class="text-muted small">Annual technology festival showcasing innovation</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h6 class="fw-bold">Robotics Competition</h6>
+                                        <p class="text-muted small">Inter-college robotics challenge</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-header text-white" style="background: linear-gradient(135deg, #437F97 0%, #2E8B57 100%);">
+                                <h4 class="card-title mb-0"><i class="fas fa-music me-2"></i>Cultural Events</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="timeline">
+                                    <div class="timeline-item mb-3">
+                                        <h6 class="fw-bold">Annual Day</h6>
+                                        <p class="text-muted small">Grand celebration of college achievements</p>
+                                    </div>
+                                    <div class="timeline-item mb-3">
+                                        <h6 class="fw-bold">Dance Night</h6>
+                                        <p class="text-muted small">Cultural dance performances and competitions</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h6 class="fw-bold">Music Night</h6>
+                                        <p class="text-muted small">Musical performances and talent showcase</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-header text-white" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);">
+                                <h4 class="card-title mb-0"><i class="fas fa-trophy me-2"></i>Sports Events</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="timeline">
+                                    <div class="timeline-item mb-3">
+                                        <h6 class="fw-bold">Inter-college Matches</h6>
+                                        <p class="text-muted small">Competitive sports tournaments</p>
+                                    </div>
+                                    <div class="timeline-item mb-3">
+                                        <h6 class="fw-bold">Alumni Meet</h6>
+                                        <p class="text-muted small">Annual alumni reunion and networking</p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <h6 class="fw-bold">Sports Week</h6>
+                                        <p class="text-muted small">Week-long sports activities and competitions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="events" class="page-section d-none">
+        <section class="page-header text-white py-5 mt-5" style="background: linear-gradient(135deg, #01295F 0%, #437F97 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4 fw-bold">Events</h1>
+                        <p class="lead">Discover and explore all campus events</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-lg-4 mb-3">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                            <input type="text" class="form-control" id="eventSearch" placeholder="Search events...">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <select class="form-select" id="categoryFilter">
+                            <option value="">All Categories</option>
+                            <option value="Technical">Technical</option>
+                            <option value="Cultural">Cultural</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Academic">Academic</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <select class="form-select" id="sortBy">
+                            <option value="date">Sort by Date</option>
+                            <option value="name">Sort by Name</option>
+                            <option value="category">Sort by Category</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 mb-3">
+                        <div class="btn-group w-100" role="group">
+                            <input type="radio" class="btn-check" name="viewMode" id="cardView" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="cardView"><i class="fas fa-th"></i></label>
+                            <input type="radio" class="btn-check" name="viewMode" id="tableView" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="tableView"><i class="fas fa-list"></i></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="eventsContainer">
+                    <div class="row" id="eventsCardView">
+                    </div>
+                    <div class="d-none" id="eventsTableView">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Event</th>
+                                        <th>Date & Time</th>
+                                        <th>Venue</th>
+                                        <th>Category</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="eventsTableBody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="gallery" class="page-section d-none">
+        <section class="page-header text-white py-5 mt-5" style="background: linear-gradient(135deg, #01295F 0%, #437F97 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4 fw-bold">Gallery</h1>
+                        <p class="lead">Explore our event photos and memories</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-lg-3 mb-3">
+                        <select class="form-select" id="yearFilter">
+                            <option value="">All Years</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <select class="form-select" id="galleryCategoryFilter">
+                            <option value="">All Categories</option>
+                            <option value="Technical">Technical</option>
+                            <option value="Cultural">Cultural</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Academic">Academic</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <select class="form-select" id="eventFilter">
+                            <option value="">All Events</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="btn-group w-100" role="group">
+                            <input type="radio" class="btn-check" name="galleryViewMode" id="gridView" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="gridView"><i class="fas fa-th"></i></label>
+                            <input type="radio" class="btn-check" name="galleryViewMode" id="masonryView" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="masonryView"><i class="fas fa-th-large"></i></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="galleryContainer">
+                    <div class="row" id="gridViewContainer">
+                    </div>
+                    <div class="d-none" id="masonryViewContainer">
+                    </div>
+                    <div class="text-center d-none" id="noImagesMessage">
+                        <h4 class="text-muted">No images found</h4>
+                        <p class="text-muted">Try adjusting your filters</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="feedback" class="page-section d-none">
+        <section class="page-header text-white py-5 mt-5" style="background: linear-gradient(135deg, #01295F 0%, #437F97 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4 fw-bold">Feedback</h1>
+                        <p class="lead">Share your thoughts and help us improve</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card shadow-lg border-0">
+                            <div class="card-header text-white" style="background: linear-gradient(135deg, #01295F 0%, #437F97 100%);">
+                                <h3 class="card-title mb-0">
+                                    <i class="fas fa-comment-dots me-2"></i>Share Your Feedback
+                                </h3>
+                            </div>
+                            <div class="card-body p-5">
+                                <form id="feedbackForm">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="name" class="form-label">Name *</label>
+                                            <input type="text" class="form-control" id="name" name="name" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="email" class="form-label">Email *</label>
+                                            <input type="email" class="form-control" id="email" name="email" required>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="userType" class="form-label">I am a *</label>
+                                        <select class="form-select" id="userType" name="userType" required>
+                                            <option value="">Select your role</option>
+                                            <option value="student">Student</option>
+                                            <option value="faculty">Faculty</option>
+                                            <option value="alumni">Alumni</option>
+                                            <option value="visitor">Visitor</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Have you attended any events in the past month? *</label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="attendedEvent" id="yesEvent" value="yes" required>
+                                            <label class="form-check-label" for="yesEvent">Yes</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="attendedEvent" id="noEvent" value="no" required>
+                                            <label class="form-check-label" for="noEvent">No</label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Overall Rating *</label>
+                                        <div class="rating">
+                                            <input type="radio" id="star5" name="rating" value="5" required>
+                                            <label for="star5"><i class="fas fa-star"></i></label>
+                                            <input type="radio" id="star4" name="rating" value="4" required>
+                                            <label for="star4"><i class="fas fa-star"></i></label>
+                                            <input type="radio" id="star3" name="rating" value="3" required>
+                                            <label for="star3"><i class="fas fa-star"></i></label>
+                                            <input type="radio" id="star2" name="rating" value="2" required>
+                                            <label for="star2"><i class="fas fa-star"></i></label>
+                                            <input type="radio" id="star1" name="rating" value="1" required>
+                                            <label for="star1"><i class="fas fa-star"></i></label>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="comments" class="form-label">Comments</label>
+                                        <textarea class="form-control" id="comments" name="comments" rows="4" placeholder="Share your thoughts, suggestions, or experiences..."></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter">
+                                            <label class="form-check-label" for="newsletter">
+                                                Subscribe to our newsletter for event updates
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                        <button type="reset" class="btn btn-outline-secondary me-md-2">
+                                            <i class="fas fa-undo me-2"></i>Reset
+                                        </button>
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fas fa-paper-plane me-2"></i>Submit Feedback
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" style="background-color: #F8F9FA;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <h4 class="mb-3" style="color: #01295F;">
+                                    <i class="fas fa-info-circle me-2"></i>Feedback Guidelines
+                                </h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6>What we're looking for:</h6>
+                                        <ul class="text-muted">
+                                            <li>Your experience with our events</li>
+                                            <li>Suggestions for improvement</li>
+                                            <li>Ideas for new events</li>
+                                            <li>Overall satisfaction feedback</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>How we use feedback:</h6>
+                                        <ul class="text-muted">
+                                            <li>Improve event organization</li>
+                                            <li>Plan future activities</li>
+                                            <li>Enhance user experience</li>
+                                            <li>Address concerns promptly</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact" class="page-section d-none">
+        <section class="page-header text-white py-5 mt-5" style="background: linear-gradient(135deg, #01295F 0%, #437F97 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4 fw-bold">Contact Us</h1>
+                        <p class="lead">Get in touch with our team</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="display-6 fw-bold" style="color: #01295F;">Our Team</h2>
+                        <p class="lead">Meet our dedicated faculty and student coordinators</p>
+                    </div>
+                </div>
+                <div class="row" id="facultyCoordinators">
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 text-center mb-4">
+                        <h3 class="mb-4" style="color: #01295F;">
+                            <i class="fas fa-users me-2"></i>Student Coordinators
+                        </h3>
+                    </div>
+                </div>
+                <div class="row" id="studentCoordinators">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" style="background-color: #F8F9FA;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="display-6 fw-bold" style="color: #01295F;">Campus Location</h2>
+                        <p class="lead">Find us on the map</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card-body p-0">
+                                <div id="map" style="height: 400px; border-radius: 0.375rem;">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878459418!3d40.74844097932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1635781234567!5m2!1sen!2sus" width="100%" height="400" style="border:0; border-radius: 0.375rem;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 text-white" style="background: linear-gradient(135deg, #01295F 0%, #437F97 100%);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="card border-0 shadow-lg">
+                            <div class="card-header text-white" style="background: linear-gradient(135deg, #01295F 0%, #437F97 100%);">
+                                <h3 class="card-title mb-0">
+                                    <i class="fas fa-envelope me-2"></i>Send us a Message
+                                </h3>
+                            </div>
+                            <div class="card-body p-4">
+                                <form id="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="contactName" class="form-label">Name *</label>
+                                            <input type="text" class="form-control" id="contactName" name="contactName" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="contactEmail" class="form-label">Email *</label>
+                                            <input type="email" class="form-control" id="contactEmail" name="contactEmail" required>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="contactSubject" class="form-label">Subject *</label>
+                                        <input type="text" class="form-control" id="contactSubject" name="contactSubject" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="contactMessage" class="form-label">Message *</label>
+                                        <textarea class="form-control" id="contactMessage" name="contactMessage" rows="4" required></textarea>
+                                    </div>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                        <button type="reset" class="btn btn-outline-light me-md-2">
+                                            <i class="fas fa-undo me-2"></i>Reset
+                                        </button>
+                                        <button type="submit" class="btn btn-light">
+                                            <i class="fas fa-paper-plane me-2"></i>Send Message
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-white py-5" style="background-color: #001122 !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="Olive_Green_and_White_Simple_Education_Logo__3___1_-removebg-preview.png" alt="CampusConnect Logo" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+                    </div>
+                    <p class="mb-0">Connecting campus communities through events and activities.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold">Sitemap</h5>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><a href="#home" data-target="home" class="text-white text-decoration-none">Home</a></li>
+                        <li class="mb-1"><a href="#about" data-target="about" class="text-white text-decoration-none">About</a></li>
+                        <li class="mb-1"><a href="#events" data-target="events" class="text-white text-decoration-none">Events</a></li>
+                        <li class="mb-1"><a href="#gallery" data-target="gallery" class="text-white text-decoration-none">Gallery</a></li>
+                        <li class="mb-1"><a href="#feedback" data-target="feedback" class="text-white text-decoration-none">Feedback</a></li>
+                        <li><a href="#contact" data-target="contact" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-md-end d-flex align-items-end justify-content-md-end">
+                    <p class="mb-0 w-100 text-center text-md-end">&copy; 2024 CampusConnect. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/feedback.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/spa.js"></script>
+</body>
+</html>
+
+

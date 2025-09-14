@@ -1,0 +1,122 @@
+[
+  {
+    "id": "event-001",
+    "name": "Hackathon 2024",
+    "date": "2024-03-15",
+    "time": "09:00 AM",
+    "venue": "Computer Science Lab",
+    "category": "Technical",
+    "description": "48-hour coding competition bringing together the brightest minds to solve real-world problems. Prizes worth ₹50,000 up for grabs!",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-002",
+    "name": "Annual Day Celebration",
+    "date": "2024-02-28",
+    "time": "06:00 PM",
+    "venue": "Main Auditorium",
+    "category": "Cultural",
+    "description": "Grand celebration featuring cultural performances, awards, and recognition ceremonies. Join us for an evening of entertainment and celebration.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-003",
+    "name": "TechFest 2024",
+    "date": "2024-09-20",
+    "time": "10:00 AM",
+    "venue": "Engineering Block",
+    "category": "Technical",
+    "description": "Annual technology festival showcasing innovations, projects, and technical workshops. Explore the latest in technology and innovation.",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-004",
+    "name": "Inter-College Cricket Tournament",
+    "date": "2024-01-15",
+    "time": "08:00 AM",
+    "venue": "Sports Ground",
+    "category": "Sports",
+    "description": "Annual sports tournament featuring competitions in cricket, football, basketball, and more. Cheer for your college team!",
+    "image": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-005",
+    "name": "Dance Night",
+    "date": "2024-04-10",
+    "time": "07:00 PM",
+    "venue": "Cultural Center",
+    "category": "Cultural",
+    "description": "Spectacular dance performances showcasing various cultural traditions and modern styles. A night of rhythm and grace.",
+    "image": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-006",
+    "name": "Alumni Meet 2024",
+    "date": "2024-12-15",
+    "time": "05:00 PM",
+    "venue": "Conference Hall",
+    "category": "Sports",
+    "description": "Annual gathering of alumni featuring networking, sports events, and cultural activities. Reconnect with old friends and colleagues.",
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-007",
+    "name": "Robotics Competition",
+    "date": "2024-11-25",
+    "time": "09:30 AM",
+    "venue": "Mechanical Engineering Lab",
+    "category": "Technical",
+    "description": "Inter-college robotics competition featuring autonomous and manual robot challenges. Showcase your engineering skills!",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-008",
+    "name": "Music Night",
+    "date": "2024-10-05",
+    "time": "07:30 PM",
+    "venue": "Open Air Theater",
+    "category": "Cultural",
+    "description": "Musical extravaganza featuring student bands, solo performances, and guest artists. A night of melodies and harmonies.",
+    "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-009",
+    "name": "Sports Week",
+    "date": "2024-08-12",
+    "time": "08:00 AM",
+    "venue": "Sports Complex",
+    "category": "Sports",
+    "description": "Week-long sports festival with various competitions and fitness activities for all students. Get ready for some healthy competition!",
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-010",
+    "name": "Departmental Seminar - AI & ML",
+    "date": "2024-06-18",
+    "time": "02:00 PM",
+    "venue": "Lecture Hall 101",
+    "category": "Academic",
+    "description": "Expert seminar on Artificial Intelligence and Machine Learning trends. Learn from industry professionals and researchers.",
+    "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-011",
+    "name": "Cultural Night",
+    "date": "2024-05-22",
+    "time": "06:30 PM",
+    "venue": "Main Auditorium",
+    "category": "Cultural",
+    "description": "A vibrant showcase of cultural diversity featuring traditional and contemporary performances from different regions.",
+    "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&h=300&fit=crop"
+  },
+  {
+    "id": "event-012",
+    "name": "Startup Pitch Competition",
+    "date": "2024-07-30",
+    "time": "10:00 AM",
+    "venue": "Business School",
+    "category": "Academic",
+    "description": "Present your innovative business ideas to a panel of industry experts. Win funding and mentorship opportunities.",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop"
+  }
+]

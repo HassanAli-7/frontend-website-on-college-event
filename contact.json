@@ -1,0 +1,92 @@
+{
+  "faculty": [
+    {
+      "name": "Dr. SanaUllah",
+      "designation": "Professor & Head",
+      "department": "Computer Science",
+      "phone": "+92 300 0000000",
+      "email": "sanaullah@campusconnect.edu"
+    },
+    {
+      "name": "Prof. Misbah-ul-Haq",
+      "designation": "Associate Professor",
+      "department": "Electrical Engineering",
+      "phone": "+92 300 0000000",
+      "email": "misbah.ul.haq@campusconnect.edu"
+    },
+    {
+      "name": "Dr. Esha Ali",
+      "designation": "Professor",
+      "department": "Mechanical Engineering",
+      "phone": "+92 300 0000000",
+      "email": "esha.ali@campusconnect.edu"
+    },
+    {
+      "name": "Prof. Dawood Jadoon",
+      "designation": "Assistant Professor",
+      "department": "Business Administration",
+      "phone": "+92 300 0000000",
+      "email": "dawood.jadoon@campusconnect.edu"
+    },
+    {
+      "name": "Dr. Sikander Awan",
+      "designation": "Professor",
+      "department": "Mathematics",
+      "phone": "+92 300 0000000",
+      "email": "sikander.awan@campusconnect.edu"
+    },
+    {
+      "name": "Prof. Junaid Raza",
+      "designation": "Associate Professor",
+      "department": "Physics",
+      "phone": "+92 300 0000000",
+      "email": "junaid.raza@campusconnect.edu"
+    }
+  ],
+  "students": [
+    {
+      "name": "Ali Raza",
+      "designation": "Student Coordinator",
+      "department": "Computer Science",
+      "phone": "+92 300 0000000",
+      "email": "ali.raza@student.campusconnect.edu"
+    },
+    {
+      "name": "Ubaid Khan",
+      "designation": "Cultural Secretary",
+      "department": "Electrical Engineering",
+      "phone": "+92 300 0000000",
+      "email": "ubaid.khan@student.campusconnect.edu"
+    },
+    {
+      "name": "Hassan Ramiz",
+      "designation": "Sports Captain",
+      "department": "Mechanical Engineering",
+      "phone": "+92 300 0000000",
+      "email": "hassan.ramiz@student.campusconnect.edu"
+    },
+    {
+      "name": "Ahmed Raza",
+      "designation": "Event Coordinator",
+      "department": "Business Administration",
+      "phone": "+92 300 0000000",
+      "email": "ahmed.raza@student.campusconnect.edu"
+    },
+    {
+      "name": "Usman Sheikh",
+      "designation": "Technical Head",
+      "department": "Computer Science",
+      "phone": "+92 300 0000000",
+      "email": "usman.sheikh@student.campusconnect.edu"
+    },
+    {
+      "name": "Ayesha Malik",
+      "designation": "Cultural Head",
+      "department": "Mathematics",
+      "phone": "+92 300 0000000",
+      "email": "ayesha.malik@student.campusconnect.edu"
+    }
+  ]
+}
+
+

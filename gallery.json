@@ -1,0 +1,184 @@
+[
+  {
+    "id": "img-001",
+    "title": "Hackathon 2023 Winners",
+    "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=300&fit=crop",
+    "event": "Hackathon 2023",
+    "year": "2023",
+    "category": "Technical",
+    "description": "Winning team celebrating their victory at the annual hackathon competition."
+  },
+  {
+    "id": "img-002",
+    "title": "Annual Day Performance",
+    "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=400&fit=crop",
+    "event": "Annual Day 2023",
+    "year": "2023",
+    "category": "Cultural",
+    "description": "Students performing traditional dance during the annual day celebration."
+  },
+  {
+    "id": "img-003",
+    "title": "Cricket Match Action",
+    "url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=500&h=300&fit=crop",
+    "event": "Inter-College Cricket",
+    "year": "2023",
+    "category": "Sports",
+    "description": "Exciting moment from the inter-college cricket tournament."
+  },
+  {
+    "id": "img-004",
+    "title": "TechFest Exhibition",
+    "url": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500&h=350&fit=crop",
+    "event": "TechFest 2023",
+    "year": "2023",
+    "category": "Technical",
+    "description": "Students showcasing their innovative projects at the technology festival."
+  },
+  {
+    "id": "img-005",
+    "title": "Music Night Performance",
+    "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&h=300&fit=crop",
+    "event": "Music Night 2023",
+    "year": "2023",
+    "category": "Cultural",
+    "description": "Student band performing live music during the annual music night."
+  },
+  {
+    "id": "img-006",
+    "title": "Robotics Competition",
+    "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&h=300&fit=crop",
+    "event": "Robotics Competition 2023",
+    "year": "2023",
+    "category": "Technical",
+    "description": "Students competing in the robotics competition with their autonomous robots."
+  },
+  {
+    "id": "img-007",
+    "title": "Alumni Meet 2023",
+    "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=500&h=350&fit=crop",
+    "event": "Alumni Meet 2023",
+    "year": "2023",
+    "category": "Sports",
+    "description": "Alumni gathering for networking and reconnecting with their alma mater."
+  },
+  {
+    "id": "img-008",
+    "title": "Dance Performance",
+    "url": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=500&h=400&fit=crop",
+    "event": "Dance Night 2023",
+    "year": "2023",
+    "category": "Cultural",
+    "description": "Students performing contemporary dance during the cultural night."
+  },
+  {
+    "id": "img-009",
+    "title": "Sports Week Basketball",
+    "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=500&h=300&fit=crop",
+    "event": "Sports Week 2023",
+    "year": "2023",
+    "category": "Sports",
+    "description": "Basketball match during the annual sports week competition."
+  },
+  {
+    "id": "img-010",
+    "title": "Academic Seminar",
+    "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500&h=300&fit=crop",
+    "event": "AI & ML Seminar 2023",
+    "year": "2023",
+    "category": "Academic",
+    "description": "Expert delivering a seminar on Artificial Intelligence and Machine Learning."
+  },
+  {
+    "id": "img-011",
+    "title": "Hackathon 2024 Setup",
+    "url": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500&h=300&fit=crop",
+    "event": "Hackathon 2024",
+    "year": "2024",
+    "category": "Technical",
+    "description": "Students setting up their workstations for the 48-hour hackathon competition."
+  },
+  {
+    "id": "img-012",
+    "title": "Annual Day 2024 Stage",
+    "url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&h=400&fit=crop",
+    "event": "Annual Day 2024",
+    "year": "2024",
+    "category": "Cultural",
+    "description": "Beautiful stage setup for the annual day celebration ceremony."
+  },
+  {
+    "id": "img-013",
+    "title": "Cricket Tournament 2024",
+    "url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=500&h=300&fit=crop",
+    "event": "Inter-College Cricket 2024",
+    "year": "2024",
+    "category": "Sports",
+    "description": "Action shot from the inter-college cricket tournament final match."
+  },
+  {
+    "id": "img-014",
+    "title": "TechFest 2024 Innovation",
+    "url": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=500&h=350&fit=crop",
+    "event": "TechFest 2024",
+    "year": "2024",
+    "category": "Technical",
+    "description": "Students demonstrating their innovative technology projects."
+  },
+  {
+    "id": "img-015",
+    "title": "Cultural Night 2024",
+    "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=400&fit=crop",
+    "event": "Cultural Night 2024",
+    "year": "2024",
+    "category": "Cultural",
+    "description": "Traditional cultural performance during the cultural night celebration."
+  },
+  {
+    "id": "img-016",
+    "title": "Robotics 2024 Competition",
+    "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&h=300&fit=crop",
+    "event": "Robotics Competition 2024",
+    "year": "2024",
+    "category": "Technical",
+    "description": "Students competing with their advanced robotics projects."
+  },
+  {
+    "id": "img-017",
+    "title": "Music Night 2024",
+    "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&h=300&fit=crop",
+    "event": "Music Night 2024",
+    "year": "2024",
+    "category": "Cultural",
+    "description": "Live music performance during the annual music night event."
+  },
+  {
+    "id": "img-018",
+    "title": "Sports Week 2024",
+    "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=500&h=300&fit=crop",
+    "event": "Sports Week 2024",
+    "year": "2024",
+    "category": "Sports",
+    "description": "Students participating in various sports activities during sports week."
+  },
+  {
+    "id": "img-019",
+    "title": "Academic Conference 2024",
+    "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500&h=300&fit=crop",
+    "event": "AI & ML Conference 2024",
+    "year": "2024",
+    "category": "Academic",
+    "description": "Academic conference on emerging technologies and research."
+  },
+  {
+    "id": "img-020",
+    "title": "Alumni Meet 2024",
+    "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=500&h=350&fit=crop",
+    "event": "Alumni Meet 2024",
+    "year": "2024",
+    "category": "Sports",
+    "description": "Annual alumni gathering for networking and celebration."
+  }
+]
+
+
